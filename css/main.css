@@ -151,4 +151,16 @@ label{
 #dataNum{
     text-decoration: underline;
 }
+.compro{
+    text-decoration: underline;
+    color: brown;
+    font-weight: 700;
+}
+#legenda{
+    display: inline-block;
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: brown;
+}
 /*End Local Page*/
