@@ -141,4 +141,14 @@ label{
     height: 350px;
     margin-top: 15px;
 }
+#date{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: indianred;
+}
+#dataNum{
+    text-decoration: underline;
+}
 /*End Local Page*/
