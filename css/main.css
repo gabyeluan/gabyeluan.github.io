@@ -141,6 +141,10 @@ label{
     height: 350px;
     margin-top: 15px;
 }
+#local #imgLocal{
+    display: block;
+    width: 100%;
+}
 #date{
     text-align: center;
     margin-top: 5px;
