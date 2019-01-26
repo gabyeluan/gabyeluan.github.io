@@ -143,6 +143,11 @@ label{
 }
 #local #imgLocal{
     display: block;
+    width: 99%;
+    margin: 0 auto;
+    transition: width 0.3s;
+}
+#local #imgLocal:hover{
     width: 100%;
 }
 #date{
