@@ -1,3 +1,46 @@
+/******* SCROLL BAR ********/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+iframe::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+iframe::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+iframe::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+iframe::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+    
+/*************************************/
+
 header{
     background-image: url("../img/background1-1.jpeg");
     padding-top: 400px;
@@ -96,10 +139,10 @@ label{
 /*Fotos Page*/
 
 #fotos{
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
+    /*    display: flex;*/
+    /*    flex-wrap: wrap;*/
+    /*    align-items: center;*/
+    /*    justify-content: center;*/
     margin-left: auto;
     margin-right: auto;
     border: 1px solid indianred;
@@ -107,9 +150,8 @@ label{
     padding: 5px 0px;
     width:95%;
     height: 100vh;
-    
-
 }
+
 
 .LargeImg{
     width: 100%;
