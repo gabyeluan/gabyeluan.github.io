@@ -91,21 +91,24 @@ label{
 .copyright{
     background-color: indianred;
     color: white;
-    font-weight: 
 }
 
 /*Fotos Page*/
 
 #fotos{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
     margin-left: auto;
     margin-right: auto;
     border: 1px solid indianred;
     border-radius: 10px;
     padding: 5px 0px;
+    width:95%;
+    height: 100vh;
+    
+
 }
 
 .LargeImg{
@@ -132,6 +135,7 @@ label{
     cursor: pointer;
     width: 250px;
 }
+
 /*End Fotos Page*/
 
 /*Local Page*/
