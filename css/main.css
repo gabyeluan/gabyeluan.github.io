@@ -19,7 +19,7 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #555; 
 }
- 
+
 /*************************************/
 
 header{
@@ -120,19 +120,21 @@ label{
 /*Fotos Page*/
 
 #fotos{
-    /*    display: flex;*/
-    /*    flex-wrap: wrap;*/
-    /*    align-items: center;*/
-    /*    justify-content: center;*/
     margin-left: auto;
     margin-right: auto;
     border: 1px solid indianred;
     border-radius: 10px;
     padding: 5px 0px;
     width:95%;
-    height: 100vh;
+    height: 520px;
+    min-height: 150px;
+    max-height: 520px;
 }
-
+#fotos iframe{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 
 .LargeImg{
     width: 100%;

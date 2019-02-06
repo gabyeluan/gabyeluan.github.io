@@ -14,20 +14,21 @@
         margin-bottom:35px;
 
     }
-/*Fotos Page*/
+    /*Fotos Page*/
     .thumbernail{
-    transition: 0.5s;
-    margin: 5px;
-    width: 30%;
-    border-style: dashed;
-    border-color: indianred;
-    border-radius: 15px;
-}
-.thumbernail:hover{
-    cursor: pointer;
-    width: 33%;
-}
-/*End Fotos Page*/
+        transition: 0.5s;
+        margin: 5px;
+        width: 30%;
+        border-style: dashed;
+        border-color: indianred;
+        border-radius: 15px;
+    }
+
+    .thumbernail:hover{
+        cursor: pointer;
+        width: 33%;
+    }
+    /*End Fotos Page*/
 
     /*Local Page*/
     #local iframe{
