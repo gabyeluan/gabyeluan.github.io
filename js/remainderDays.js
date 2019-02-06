@@ -6,7 +6,10 @@ var DivBetweenDates = 0;
 
 var diffAnos = today.getYear() - marryDay.getYear();
 
-console.log(today.getTime(), marryDay.getTime())
+console.log(today.getTime(), marryDay.getTime());
+
+//DivBetweenDates = ((today.getDate() + (today.getMonth() * 30)) / (marryDay.getDate() + (marryDay.getMonth() * 30))); //esse calculo também funciona, mas não usa o ano em miliseconds.
+
 DivBetweenDates = (today.getTime() / marryDay.getTime());
 
 var percentage = Math.floor(DivBetweenDates * 100);
