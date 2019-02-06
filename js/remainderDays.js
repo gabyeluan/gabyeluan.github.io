@@ -4,10 +4,10 @@ var today = new Date();
 var one_day = 1000*60*60*24;
 var DivBetweenDates = 0;
 
-var diffAnos = diffAnos = today.getYear() - marryDay.getYear();
+var diffAnos = today.getYear() - marryDay.getYear();
 
-
-DivBetweenDates = (today.getMonth()+today.getDate()+diffAnos)/(marryDay.getMonth() + marryDay.getDate());
+console.log(today.getTime(), marryDay.getTime())
+DivBetweenDates = (today.getTime() / marryDay.getTime());
 
 var percentage = Math.floor(DivBetweenDates * 100);
 
