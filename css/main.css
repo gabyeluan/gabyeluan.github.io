@@ -131,7 +131,6 @@ label{
     max-height: 520px;
 }
 #fotos iframe{
-    display: block;
     width: 100%;
     height: 100%;
 }
