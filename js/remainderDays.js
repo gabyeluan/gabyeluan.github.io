@@ -16,7 +16,7 @@ var percentage = Math.floor(DivBetweenDates * 100);
 
 var diffInDay = Math.abs(marryDay - today);
 
-var days = Math.floor(diffInDay/one_day)-29; //less one month, because Jan is 0, for some misterious reason, is -29 days than 30 (maybe because the leap year);
+var days = Math.floor(diffInDay/one_day)+1; //more 1 day, I'm not sure way
 
 
 
