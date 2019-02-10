@@ -16,7 +16,7 @@ var percentage = Math.floor(DivBetweenDates * 100);
 
 var diffInDay = Math.abs(marryDay - today);
 
-var days = Math.floor(diffInDay/one_day)+1; //more 1 day, I'm not sure way
+var days = Math.floor(diffInDay/one_day)+1; //more 1 day, I'm not sure why
 
 
 

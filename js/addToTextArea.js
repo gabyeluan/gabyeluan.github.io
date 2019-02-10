@@ -17,7 +17,7 @@ function MgnTextArea(text){
         name = "É... Qual seu nome mesmo??? rsrs.";
     }
     
-    document.getElementById("message").textContent = "Queridos, Gabrielly e Luan.\n\nGostaria de me comprometer a doar os seguintes presentes (ou o valor em dinheiro):\n\n" + items.replace(/,/g,"") + "\nAtt, " + name;
+    document.getElementById("message").textContent = "Queridos, Gabriella e Luan.\n\nGostaria de me comprometer a doar os seguintes presentes (ou o valor em dinheiro):\n\n" + items.replace(/,/g,"") + "\nAtt, " + name;
 }
 
 function nameChange(inputText){
