@@ -31,6 +31,9 @@
     /*End Fotos Page*/
 
     /*Local Page*/
+    #fotos{
+        max-width: 1024px;
+    }
     #local iframe{
         height: 550px;
     }
