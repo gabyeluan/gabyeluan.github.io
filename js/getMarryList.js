@@ -41,6 +41,7 @@ function getPrice(){
 
     $(function(){
         $("#marryList > span").click(function(){
+            
             if ($(this).hasClass("active2") == false){
                 var valor = $(this).find("#preco").text();
                 total += parseFloat(valor);
@@ -51,7 +52,7 @@ function getPrice(){
                 total -= parseFloat(valor);
                 $("#marryList #total").text("Total: R$" + total.toFixed(2));
             }
-
+            MgnTextArea($(this).text());
         });
     });
 }

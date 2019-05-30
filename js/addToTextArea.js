@@ -17,7 +17,7 @@ function MgnTextArea(text){
         name = "É... Qual seu nome mesmo??? rsrs.";
     }
     
-    document.getElementById("message").textContent = "Queridos, Gabriella e Luan.\n\nGostaria de me comprometer a doar os seguintes presentes (ou o valor em dinheiro):\n\n" + items.replace(/,/g,"") + "\nAtt, " + name;
+    document.getElementById("message").textContent = "Queridos, Gabriella e Luan.\n\nGostaria de me comprometer a doar os seguintes presentes (ou o valor em dinheiro):\n\n" + items.replace(/,/g,"") + "\nAtt, " + name + '\n\n' + $('#total').text();
 }
 
 function nameChange(inputText){
@@ -26,7 +26,7 @@ function nameChange(inputText){
     var splitText = actualText.split("Att,");
     var newName = inputText.value;
 
-    document.getElementById("message").textContent = splitText[0] + "Att, " + newName;
+    document.getElementById("message").textContent = splitText[0] + "Att, " + newName + '\n\n' + $('#total').text();
     
 }
 //replace code reference: https://www.tek-tips.com/viewthread.cfm?qid=1134940
