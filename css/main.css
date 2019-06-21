@@ -132,6 +132,9 @@ label{
     height: 75vh;
     max-height: 220px;
 }
+#showInf{
+    height: 100%;
+}
 
 .LargeImg{
     width: 100%;
@@ -210,7 +213,7 @@ label{
     color: #ffffff;
     text-shadow: 0px 0px 3px white, 1px 1px 3px black, -1px -1px 3px black;
     background-color: rgba(198, 98, 98, 0.5);
-    font-size: 3rem;
+    font-size: 2.5rem;
     justify-content: center;
     border-radius: 100% 100% 0 0;
 }

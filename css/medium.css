@@ -2,4 +2,7 @@
     #fotos iframe{
         max-height: 400px;
     }
+    #countDownContainer{
+        font-size: 3rem;
+    }
 }
