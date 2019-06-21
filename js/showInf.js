@@ -8,11 +8,11 @@ $(function(){
                     scrollTop: $(".inf").offset().top
                 }, 600);
             }, 300);
-        if ($("#showInf").text() == "Dar para os Noivos =)"){
-            $("#showInf").text ("Não dar para os Noivos =´(");
+        if ($("#showInf").text() == "Dar dinheiro para os Noivos =)"){
+            $("#showInf").text ("Não dar dinheiro para os Noivos =´(");
         }
         else{
-            $("#showInf").text ("Dar para os Noivos =)");
+            $("#showInf").text ("Dar dinheiro para os Noivos =)");
         }
     });
 });

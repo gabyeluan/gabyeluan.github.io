@@ -199,3 +199,9 @@ label{
     background-color: brown;
 }
 /*End Local Page*/
+#casasBaiha{
+
+    border: 1px dotted indianred;
+    height: 99vh; /* 1vh of space, to fill almost all the screen for a better use of the client */
+    width: 100%;
+}
