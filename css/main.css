@@ -133,7 +133,8 @@ label{
     max-height: 220px;
 }
 #showInf{
-    height: 100%;
+    height: 60px;
+    cursor: pointer;
 }
 
 .LargeImg{
@@ -216,4 +217,17 @@ label{
     font-size: 2.5rem;
     justify-content: center;
     border-radius: 100% 100% 0 0;
+}
+.confPres{
+    border: 1px solid #ff6a6a;
+    border-radius: 10px;
+    padding-left: 5px !important;
+    background-color: #ff6a6a;
+    transition: all 0.3s;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px black;
+}
+.confPres:hover{
+    background-color: #b74e4e;
+    border-color:#b74e4e;
 }

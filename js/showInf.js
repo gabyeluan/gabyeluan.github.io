@@ -16,3 +16,8 @@ $(function(){
         }
     });
 });
+
+// Toggle Show Modal
+function showModal(){
+    $('#confPresModal').toggleClass('showModal');
+}
