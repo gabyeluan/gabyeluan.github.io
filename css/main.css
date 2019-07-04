@@ -21,7 +21,6 @@
 }
 
 /*************************************/
-
 header{
     background-image: url("../img/background1-1.jpeg");
     padding-top: 400px;
@@ -74,7 +73,7 @@ main{
     cursor: pointer;
 }
 
-main button{
+main button, #modal button{
     width: 100%; 
     background-color: indianred; 
     color: white; 
@@ -84,7 +83,7 @@ main button{
     font-weight: 700; 
     font-size: 1.5rem;
 }
-main button:hover{
+main button, #modal button:hover{
     transition: 0.4s;
     background-color: brown; 
 }
@@ -230,4 +229,47 @@ label{
 .confPres:hover{
     background-color: #b74e4e;
     border-color:#b74e4e;
+}
+#modal{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(90, 90, 90, 0.5);
+    z-index: 300;
+}
+
+#modal form{
+    margin: 15% auto 0 auto;
+    border-radius: 10px;
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+#modal button{
+    width: 90%;
+}
+#modal lable{
+    margin: auto;
+    display: block;
+}
+
+#modal input[type=text]{
+    width: 300px;
+    display: block;
+    margin-bottom: 15px;
+    
+}
+#modal input[type=radio]{
+    display: inline;
 }

@@ -19,5 +19,28 @@ $(function(){
 
 // Toggle Show Modal
 function showModal(){
-    $('#confPresModal').toggleClass('showModal');
+    $('#modal').fadeIn(300);
+    $('#modal').css('display', 'flex');
 }
+
+$(function(){
+    $('#modal').on('click', function(e){
+        if (e.target !== this){
+            return;
+        }else{
+            closeModal();
+        }
+    });
+
+    $(document).keyup(function(e){
+        if (e.key === "Escape"){
+            closeModal();
+        }
+    });
+
+    function closeModal(){
+        $('#modal').fadeOut(300);
+    }
+});
+
+

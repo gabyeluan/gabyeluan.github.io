@@ -21,6 +21,16 @@
 
     </head>
     <body>
+        <div id="modal">
+            <form accept-charset="UTF-8" action="https://usebasin.com/f/48366767cb75" method="POST">
+                <h3>Confirmar Presença:</h3>
+                <label>Nome Completo: </label>
+                <input type="text" id="nome" name="Nome: ">
+                <input type="radio" name="Confirmação: " value="Sim, eu irei =D!" checked><label>Sim, eu irei =D!</label>
+                <input type="radio" name="Confirmação: " value="Não irei, infelizmente =´("><label>Não irei, infelizmente =´(</label>
+                <button type="submit">Enviar Resposta</button>
+            </form>
+        </div>
         <header>
             <div id="countDownContainer">
                 <span id='countDown'></span>
@@ -41,7 +51,7 @@
                         <li class="nav-item">
                             <a class="nav-link " href="local.html">Local</a>
                         </li>
-                        <li><a href='#confPres' class="nav-link confPres active">Confirmar Presença</a></li>
+                        <li><a href='#confPres' class="nav-link confPres active" onclick="showModal()">Confirmar Presença</a></li>
                     </ul>
                 </div>
             </nav>
@@ -59,6 +69,7 @@
         <!--Progress Bar-->
 
         <main>
+
             <div>
                 <p>Abaixo esta nossa lista de casamento. Ao selecionar o item, ele já vai colocar na sua mensagem o que você deseja dar. Você pode alterar a mensagem do e-mail, mas por favor, não tire o nome do que vai dar, senão vamos perder o controle e vai continuar o item no site.</p>
 
@@ -95,7 +106,7 @@
                     <form accept-charset="UTF-8" action="https://usebasin.com/f/48366767cb75" method="POST">
 
                         <label for="name"><strong>Seu Nome Completo:</strong></label>
-                        <input class="form-control" type="text" name="name" id="name" placeholder="Ex.: Jorge Antônio da Silva" onkeyup="nameChange(this)" required> 
+                        <input class="form-control" type="text" name="Nome: " id="name" placeholder="Ex.: Jorge Antônio da Silva" onkeyup="nameChange(this)" required> 
 
                         <!--
 <label for="email"><strong>Seu E-mail:</strong></label>
@@ -103,10 +114,10 @@
 -->
 
                         <label for="tel"><strong>Seu Telefone ou Whatsapp:</strong></label>
-                        <input class="form-control" type="tel" name="telefone" id="tel" placeholder="Ex.: (21) 9999-99999" required> 
+                        <input class="form-control" type="tel" name="Telefone: " id="tel" placeholder="Ex.: (21) 9999-99999" required> 
 
                         <label><strong>Mensagem:</strong></label>
-                        <textarea class="form-control" id="message" name="message" placeholder="Ex.: Vocês são lindos ♥ !" rows='15' onload="this.value=''" required>Queridos, Gabriella e Luan.&#10;&#10;Gostaria de me comprometer a doar os seguintes presentes (ou o valor em dinheiro):&#10;&#10;Att,</textarea>
+                        <textarea class="form-control" id="message" name="Menssagem: " placeholder="Ex.: Vocês são lindos ♥ !" rows='15' onload="this.value=''" required>Queridos, Gabriella e Luan.&#10;&#10;Gostaria de me comprometer a doar os seguintes presentes (ou o valor em dinheiro):&#10;&#10;Att,</textarea>
                         <button onclick="submitForms()">Enviar</button>
                     </form>
 
@@ -177,7 +188,7 @@ Att, </textarea>
             <div class="footer-copyright text-center copyright py-2">&copy; Copyright Gabriella &amp; Luan - <span id="currentdate"></span> - Designed and Developed by Amon T. B. da Silva
             </div>
             <!-- Copyright -->
-            
+
         </footer>
         <!-- Footer -->
 
