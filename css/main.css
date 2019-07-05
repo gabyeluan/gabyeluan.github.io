@@ -247,7 +247,7 @@ label{
 #modal form{
     margin: 15% auto 0 auto;
     border-radius: 10px;
-    height: 350px;
+    height: 450px;
     width: 350px;
     background-color: white;
     display: flex;
@@ -264,11 +264,14 @@ label{
     display: block;
 }
 
-#modal input[type=text]{
+#modal input[type=text], #modal input[type=number]{
     width: 300px;
     display: block;
     margin-bottom: 15px;
-    
+    text-align: center;
+}
+#modal input[type=number]{
+    margin-bottom: 0px;
 }
 #modal input[type=radio]{
     display: inline;

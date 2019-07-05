@@ -25,9 +25,12 @@
             <form accept-charset="UTF-8" action="https://usebasin.com/f/48366767cb75" method="POST">
                 <h3>Confirmar Presença:</h3>
                 <label>Nome Completo: </label>
-                <input type="text" id="nome" name="Nome: ">
+                <input type="text" id="nome" name="Nome: " required>
                 <input type="radio" name="Confirmação: " value="Sim, eu irei =D!" checked><label>Sim, eu irei =D!</label>
                 <input type="radio" name="Confirmação: " value="Não irei, infelizmente =´("><label>Não irei, infelizmente =´(</label>
+                <label for='numPessoas'>Quantas pessoas irão?</label>
+                <input id="numPessoas" type="number" value="1" name="Total de pessoas que irão: " step="1" required>
+                <small>(Digite 1, se for apenas você)</small>
                 <button type="submit">Enviar Resposta</button>
             </form>
         </div>
