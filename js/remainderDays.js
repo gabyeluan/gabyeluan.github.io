@@ -20,7 +20,8 @@ var days = Math.floor(diffInDay/one_day)+1; //more 1 day, I'm not sure why
 
 
 
-document.getElementById("day").textContent = "♥ " + days + " Dias para o casamento ♥ " + percentage + "%";
+//document.getElementById("day").textContent = "♥ " + days + " Dias para o casamento ♥ " + percentage + "%";
+document.getElementById("day").textContent = "♥ 100% casados! ♥ ";
 
 
 $(function(){
